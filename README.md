@@ -70,4 +70,6 @@ Para ejecutar un programa:
 | 1.1 Comentarios    | https://doc.rust-lang.org/rust-by-example/hello/comment.html      |   [01.hello_world/comments.rs](01.hello_world/comments.rs)     |
 | 1.2 Formatted print    | https://doc.rust-lang.org/rust-by-example/hello/print.html      | [01.hello_world/formatted_print.rs](01.hello_world/formatted_print.rs)       |
 | 1.2.0 Ejemplo print_struct     | -      | [01.hello_world/print_struct.rs](01.hello_world/print_struct.rs)       |
-| 1.2.1    | 1.2.1      | 1.2.1       |
+| 1.2.1  Debug I  | https://doc.rust-lang.org/rust-by-example/hello/print/print_debug.html      | [01.hello_world/debug_1.rs](01.hello_world/debug_1.rs)       |
+| 1.2.1  Debug II | https://doc.rust-lang.org/rust-by-example/hello/print/print_debug.html      | [01.hello_world/debug_2.rs](01.hello_world/debug_2.rs)       |
+| 1.2.1  Debug III | https://doc.rust-lang.org/rust-by-example/hello/print/print_debug.html      | [01.hello_world/debug_3.rs](01.hello_world/debug_3.rs)       |
