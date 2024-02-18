@@ -14,4 +14,8 @@ Cargo.lock
 *.pdb
 
 # Custom
+# Archivos binarios:
 *.bin
+# Carpeta de archivos binarios:
+bin/
+bin/*
