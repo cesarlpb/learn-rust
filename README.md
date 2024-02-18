@@ -76,6 +76,7 @@ Para ejecutar un programa:
 | 1.2.2 Display | https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html | [01.hello_world/display_1.rs](01.hello_world/display_1.rs) |
 | 1.2.2 Display | https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html | [01.hello_world/display_2.rs](01.hello_world/display_2.rs) |
 | Activity: Display | https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html | [01.hello_world/display_3.rs](01.hello_world/display_3.rs) |
-| 1.2.2.1 Testcase: List | https://doc.rust-lang.org/rust-by-example/hello/print/print_display/testcase_list.html | [01.hello_world/testcase_list.rs](01.hello_world/testcase_list.rs) |
+| 1.2.2.1 Testcase: List | https://doc.rust-lang.org/rust-by-example/hello/print/print_display/testcase_list.html | [01.hello_world/testcase_list_1.rs](01.hello_world/testcase_list_1.rs) |
+| Activity: Testcase List | https://doc.rust-lang.org/rust-by-example/hello/print/print_display/testcase_list.html | [01.hello_world/testcase_list_2.rs](01.hello_world/testcase_list_2.rs) |
 | 1.2.2.1 Formatting | https://doc.rust-lang.org/rust-by-example/hello/print/fmt.html | [01.hello_world/formatting.rs](01.hello_world/formatting.rs) |
 | 2 | 2 | 2 |
