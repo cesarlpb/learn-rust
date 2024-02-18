@@ -25,7 +25,8 @@ Rust cuenta con una excelente documentación, un compilador amigable con mensaje
 
 ## Instalaciones
 
-[Instrucciones de instalación](https://www.rust-lang.org/tools/install)
+- Instrucciones en el libro: [https://doc.rust-lang.org/book/ch01-01-installation.html](https://doc.rust-lang.org/book/ch01-01-installation.html)
+- Versión corta en web: [Instrucciones de instalación](https://www.rust-lang.org/tools/install)
 
 ### Windows
 
