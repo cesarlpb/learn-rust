@@ -54,18 +54,18 @@ Para compilar un programa:
 
 ```bash
     # Compilamos el programa:
-    rustc programa.rs -o programa.bin
+    rustc <carpeta>/<programa | main>.rs -o bin/<programa.bin | programa>
 ```
 
 Para ejecutar un programa:
 
 ```bash
     # Ejecutamos el programa:
-    ./programa.bin
+    ./bin/<programa.bin | programa>
 ```
 
 | Tema | Enlace | Archivo |
 |------|--------|---------|
-|01. Hello, world    | https://doc.rust-lang.org/rust-by-example/hello.html      | [01_hello_world.rs](01_hello_world.rs)       |
-| 2    | 2      | 2       |
+|01. Hello, world    | https://doc.rust-lang.org/rust-by-example/hello.html      | [01.hello_world/main.rs](01.hello_world/main.rs)       |
+| 01.1 Comentarios    | https://doc.rust-lang.org/rust-by-example/hello/comment.html      |        |
 | 3    | 3      | 3       |
