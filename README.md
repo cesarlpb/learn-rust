@@ -67,5 +67,5 @@ Para ejecutar un programa:
 | Tema | Enlace | Archivo |
 |------|--------|---------|
 |01. Hello, world    | https://doc.rust-lang.org/rust-by-example/hello.html      | [01.hello_world/main.rs](01.hello_world/main.rs)       |
-| 01.1 Comentarios    | https://doc.rust-lang.org/rust-by-example/hello/comment.html      |        |
+| 1.1 Comentarios    | https://doc.rust-lang.org/rust-by-example/hello/comment.html      |   [01.hello_world/comments.rs](01.hello_world/comments.rs)     |
 | 3    | 3      | 3       |
