@@ -1,5 +1,5 @@
-# learn-rust
-Repositorio para aprender Rust desde cero
+# learn-rust 🦀
+Repositorio para aprender Rust desde cero.
 
 ## ¿Por qué Rust?
 
@@ -18,7 +18,9 @@ Rust cuenta con una excelente documentación, un compilador amigable con mensaje
 
 - Sitio web oficial: [Rust](https://www.rust-lang.org/)
     - Learn: [Learn Rust](https://www.rust-lang.org/learn)
-- Libro de Rust: [The Rust Programming Language](https://doc.rust-lang.org/book/)
+    - Libro de Rust: [The Rust Programming Language](https://doc.rust-lang.org/book/)
+
+**Ejemplos:**
 - Sigue la estructura del libro con ejemplos: [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 
 ## Instalaciones
@@ -48,7 +50,22 @@ Rust cuenta con una excelente documentación, un compilador amigable con mensaje
 
 ## Programas
 
+Para compilar un programa:
+
+```bash
+    # Compilamos el programa:
+    rustc programa.rs -o programa.bin
+```
+
+Para ejecutar un programa:
+
+```bash
+    # Ejecutamos el programa:
+    ./programa.bin
+```
+
 | Tema | Enlace | Archivo |
 |------|--------|---------|
-| Hello, world    | https://doc.rust-lang.org/rust-by-example/hello.html      | [01_hello_world.rs](01_hello_world.rs)       |
+|01. Hello, world    | https://doc.rust-lang.org/rust-by-example/hello.html      | [01_hello_world.rs](01_hello_world.rs)       |
 | 2    | 2      | 2       |
+| 3    | 3      | 3       |
