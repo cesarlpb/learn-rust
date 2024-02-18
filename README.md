@@ -68,4 +68,6 @@ Para ejecutar un programa:
 |------|--------|---------|
 |01. Hello, world    | https://doc.rust-lang.org/rust-by-example/hello.html      | [01.hello_world/main.rs](01.hello_world/main.rs)       |
 | 1.1 Comentarios    | https://doc.rust-lang.org/rust-by-example/hello/comment.html      |   [01.hello_world/comments.rs](01.hello_world/comments.rs)     |
-| 3    | 3      | 3       |
+| 1.2 Formatted print    | https://doc.rust-lang.org/rust-by-example/hello/print.html      | [01.hello_world/formatted_print.rs](01.hello_world/formatted_print.rs)       |
+| 1.2.0 Ejemplo print_struct     | -      | [01.hello_world/print_struct.rs](01.hello_world/print_struct.rs)       |
+| 1.2.1    | 1.2.1      | 1.2.1       |
