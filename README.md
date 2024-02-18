@@ -47,3 +47,8 @@ Rust cuenta con una excelente documentación, un compilador amigable con mensaje
 ### Linux
 
 ## Programas
+
+| Tema | Enlace | Archivo |
+|------|--------|---------|
+| Hello, world    | https://doc.rust-lang.org/rust-by-example/hello.html      | [01_hello_world.rs](01_hello_world.rs)       |
+| 2    | 2      | 2       |
