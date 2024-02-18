@@ -78,5 +78,6 @@ Para ejecutar un programa:
 | Activity: Display | https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html | [01.hello_world/display_3.rs](01.hello_world/display_3.rs) |
 | 1.2.2.1 Testcase: List | https://doc.rust-lang.org/rust-by-example/hello/print/print_display/testcase_list.html | [01.hello_world/testcase_list_1.rs](01.hello_world/testcase_list_1.rs) |
 | Activity: Testcase List | https://doc.rust-lang.org/rust-by-example/hello/print/print_display/testcase_list.html | [01.hello_world/testcase_list_2.rs](01.hello_world/testcase_list_2.rs) |
-| 1.2.2.1 Formatting | https://doc.rust-lang.org/rust-by-example/hello/print/fmt.html | [01.hello_world/formatting.rs](01.hello_world/formatting.rs) |
+| 1.2.3 Formatting | https://doc.rust-lang.org/rust-by-example/hello/print/fmt.html | [01.hello_world/formatting_1.rs](01.hello_world/formatting_1.rs) |
+| Activity: Formatting | https://doc.rust-lang.org/rust-by-example/hello/print/fmt.html | [01.hello_world/formatting_2.rs](01.hello_world/formatting_2.rs) |
 | 2 | 2 | 2 |
