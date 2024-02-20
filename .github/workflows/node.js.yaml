@@ -26,5 +26,7 @@ jobs:
         git config user.name César P.
         git config user.email cesarlpb@gmail.com
         git add README.md
-        git diff --quiet && git diff --staged --quiet || git commit -m "Actualizar README con progreso"
+        git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Actualizar README con progreso"
         git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
