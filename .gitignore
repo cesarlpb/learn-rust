@@ -19,3 +19,8 @@ Cargo.lock
 # Carpeta de archivos binarios:
 bin/
 bin/*
+
+# Custom
+# Untrack de node_modules de workflow con Node
+node_modules/
+node_modules/*

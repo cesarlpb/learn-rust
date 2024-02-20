@@ -1,0 +1,32 @@
+{
+  "name": "learn-rust",
+  "version": "1.0.0",
+  "description": "Repositorio para aprender Rust🦀 desde cero.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "update-readme": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cesarlpb/learn-rust.git"
+  },
+  "keywords": [
+    "Rust",
+    "Learn Rust",
+    "Aprender Rust"
+  ],
+  "author": "César Patiño <cesarlpb@gmail.com> (https://cesarlpb.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarlpb/learn-rust/issues"
+  },
+  "homepage": "https://github.com/cesarlpb/learn-rust/#readme",
+  "dependencies": {
+    "canvas": "^2.11.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
