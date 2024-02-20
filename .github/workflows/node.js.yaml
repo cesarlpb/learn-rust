@@ -26,6 +26,7 @@ jobs:
         git config user.name César P.
         git config user.email cesarlpb@gmail.com
         git add README.md
+        git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/cesarlpb/learn-rust.git
         git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Actualizar README con progreso"
         git push origin main
       env:
