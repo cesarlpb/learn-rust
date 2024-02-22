@@ -13,7 +13,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     environment: COMMIT
-
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js 20
@@ -25,6 +24,7 @@ jobs:
       env:
         NODE_ENV: "development"
     - name: Crear commit y push al repositorio
+      
       if: github.event_name == 'push'
       run: |
         git config --global user.name "$AUTHOR"
@@ -37,3 +37,7 @@ jobs:
           echo "No hay cambios para confirmar."
         fi
         echo $MSG
+      env:
+        AUTHOR: ${{ vars.AUTHOR }}
+        EMAIL: ${{ vars.EMAIL }}
+        MSG: ${{ vars.MSG }}
