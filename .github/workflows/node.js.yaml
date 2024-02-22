@@ -22,3 +22,13 @@ jobs:
     - run: npm run update-readme
       env:
         NODE_ENV: "development"
+    # Commit and push all changed files.
+    - name: Create commit and push to repository
+      # Only run on main branch push (e.g. after pull request merge).
+      if: github.event_name == 'push'
+      run: |
+        git config --global user.name "César P."
+        git config --global user.email "cesarlpb@gmail.com"
+        git add .
+        git commit -m "[bot] Actualizar progreso"
+        git push
