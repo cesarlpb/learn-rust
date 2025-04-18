@@ -38,9 +38,9 @@ Objetivo: Imprimir los números del 1 al 100, con reglas FizzBuzz.
 
 Aprendes:
 
-- Condicionales (if, else if)
-- Rango de números (1..=100)
-- Formateo de cadenas
+- [x] Condicionales (if, else if)
+- [x] Rango de números (1..=100)
+- [x] Formateo de cadenas
 
 ## 5. Manejo de errores con Result
 
