@@ -6,9 +6,11 @@ Objetivo: Crear una estructura User con nombre y edad, y mostrar un saludo.
 
 Aprendes:
 
-- Structs
-- impl y métodos asociados
-- Manejo básico de println! y tipos
+- [x] Structs
+- [x] impl y métodos asociados
+- [x] Manejo básico de println! y tipos
+- Bonus: lectura desde consola
+- [01_hello_world](./_01_hello_world)
 
 ## 2. Conversión de temperatura (Celsius <-> Fahrenheit)
 
