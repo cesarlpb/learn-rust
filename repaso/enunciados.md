@@ -28,8 +28,8 @@ Objetivo: Contador que incrementa hasta 10 y se imprime.
 
 Aprendes:
 
-- Mutabilidad (mut)
-- loop, while, for
+- [x] Mutabilidad (mut)
+- [x] for, while, for in
 - Control de flujo (break, continue)
 
 ## 4. FizzBuzz
