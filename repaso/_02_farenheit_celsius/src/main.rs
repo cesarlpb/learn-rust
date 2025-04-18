@@ -1,52 +1,34 @@
 // Conversor de Farenheit a Celsius
 use std::io;
 
-struct ConversorFarenheitCelsius {
-    farenheit: f32,
-    celsius: f32,
+fn c_to_f(c: f32) -> f32 {
+    (c * 9.0 / 5.0) + 32.0
 }
 
-impl ConversorFarenheitCelsius {
-    fn convertir_celsius_farenheit(&mut self) {
-        self.farenheit = (self.celsius * 9.0 / 5.0) + 32.0;
-    }
-
-    fn convertir_farenheit_celsius(&mut self) {
-        self.celsius = (self.farenheit - 32.0) * 5.0 / 9.0;
-    }
+fn f_to_c(f: f32) -> f32 {
+    (f - 32.0) * 5.0 / 9.0
 }
 
 fn main() {
-    let mut temperatura = ConversorFarenheitCelsius {
-        farenheit: 0.0,
-        celsius: 0.0,
-    };
+    println!("¿Convertir de (1) C→F o (2) F→C?");
+    let mut choice = String::new();
+    io::stdin().read_line(&mut choice).unwrap();
 
-    println!("Ingrese la temperatura en grados Celsius (C):");
-
-    let mut input = String::new();
-    io::stdin()
-        .read_line(&mut input)
-        .expect("Error al leer la entrada");
-
-    // Convertimos el input string a f32
-    temperatura.celsius = match input.trim().parse() {
-        Ok(num) => num,
-        Err(_) => {
-            println!("Por favor ingrese un número válido.");
-            return;
+    match choice.trim() {
+        "1" => {
+            println!("Ingresa la temperatura en °C:");
+            let mut buf = String::new();
+            io::stdin().read_line(&mut buf).unwrap();
+            let c: f32 = buf.trim().parse().expect("Número inválido");
+            println!("{} °C -> {:.2} °F", c, c_to_f(c));
         }
-    };
-
-    temperatura.convertir_celsius_farenheit();
-    println!(
-        "La temperatura en Farenheit (F) es: {:.2} F",
-        temperatura.farenheit
-    );
-
-    temperatura.convertir_farenheit_celsius();
-    println!(
-        "La temperatura en Celsius (C) es: {:.2} C",
-        temperatura.celsius
-    );
+        "2" => {
+            println!("Ingresa la temperatura en °F:");
+            let mut buf = String::new();
+            io::stdin().read_line(&mut buf).unwrap();
+            let f: f32 = buf.trim().parse().expect("Número inválido");
+            println!("{} °F -> {:.2} °C", f, f_to_c(f));
+        }
+        _ => println!("Opción no válida."),
+    }
 }

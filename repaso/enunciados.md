@@ -18,9 +18,9 @@ Objetivo: Recibir un valor y convertirlo entre unidades.
 
 Aprendes:
 
-- Funciones puras
-- Tipado estricto
-- Pattern matching con match
+- [x] Funciones puras
+- [x] Tipado estricto
+- [x] Pattern matching con match
 
 ## 3. Contador mutable con loop
 
